@@ -1,0 +1,13 @@
+{
+    "port": 80,
+    "token_path": "token.json",
+    "state_path": "state.json",
+
+    "users"     : [
+        "user0",
+        "user1",
+        "etc...",
+        "adjust the users as necessary for your household"
+    ],
+    "structure_id" : "The ID of the structure to control. See examples on: https://developers.nest.com/documentation/cloud/how-to-read-data"
+}
