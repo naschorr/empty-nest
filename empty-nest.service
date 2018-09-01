@@ -1,0 +1,12 @@
+[Unit]
+Description=Empty-Nest Service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/empty-nest/bin/python /usr/local/bin/empty-nest/code/empty_nest.py
+WorkingDirectory=/usr/local/bin/empty-nest/code
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=sysinit.target
